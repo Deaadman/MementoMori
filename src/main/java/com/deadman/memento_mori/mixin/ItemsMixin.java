@@ -1,5 +1,5 @@
 /*
-package com.deadman.momento_mori.mixin;
+package com.deadman.memento_mori.mixin;
 
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.DeathProtectionComponent;

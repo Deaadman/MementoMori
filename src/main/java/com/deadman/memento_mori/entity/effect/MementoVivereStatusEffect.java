@@ -1,4 +1,4 @@
-package com.deadman.momento_mori.entity.effect;
+package com.deadman.memento_mori.entity.effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;

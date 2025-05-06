@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "momento-mori:undying_crystal",
+          "name": "memento-mori:undying_crystal",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

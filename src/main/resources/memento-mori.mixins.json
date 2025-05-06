@@ -1,10 +1,9 @@
 {
   "required": true,
-  "package": "com.deadman.momento_mori.mixin",
+  "package": "com.deadman.memento_mori.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "AnvilScreenHandlerMixin",
-    "ExampleMixin"
+    "AnvilScreenHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

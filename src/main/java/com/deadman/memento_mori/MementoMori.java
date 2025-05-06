@@ -1,15 +1,15 @@
-package com.deadman.momento_mori;
+package com.deadman.memento_mori;
 
-import com.deadman.momento_mori.entity.effect.ModStatusEffects;
-import com.deadman.momento_mori.item.ModItemGroups;
-import com.deadman.momento_mori.item.ModItems;
+import com.deadman.memento_mori.entity.effect.ModStatusEffects;
+import com.deadman.memento_mori.item.ModItemGroups;
+import com.deadman.memento_mori.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MomentoMori implements ModInitializer {
-	public static final String MOD_ID = "momento-mori";
+public class MementoMori implements ModInitializer {
+	public static final String MOD_ID = "memento-mori";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

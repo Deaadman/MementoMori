@@ -1,6 +1,6 @@
-package com.deadman.momento_mori.entity.effect;
+package com.deadman.memento_mori.entity.effect;
 
-import com.deadman.momento_mori.MomentoMori;
+import com.deadman.memento_mori.MementoMori;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.registry.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModStatusEffects {
 
-    public static final RegistryEntry<StatusEffect> MEMENTO_VIVERE = Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(MomentoMori.MOD_ID, "memento_vivere"), new MementoVivereStatusEffect(StatusEffectCategory.NEUTRAL, 0xffffff));
+    public static final RegistryEntry<StatusEffect> MEMENTO_VIVERE = Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(MementoMori.MOD_ID, "memento_vivere"), new MementoVivereStatusEffect(StatusEffectCategory.NEUTRAL, 0xffffff));
 
     public static void Initialise() {}
 }

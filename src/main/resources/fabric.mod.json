@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "momento-mori",
+	"id": "memento-mori",
 	"version": "${version}",
-	"name": "Momento Mori",
+	"name": "Memento Mori",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/momento-mori/icon.png",
+	"icon": "assets/memento-mori/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.deadman.momento_mori.MomentoMori"
+          "com.deadman.memento_mori.MementoMori"
 		],
 		"client": [
-			"com.deadman.momento_mori.MomentoMoriClient"
+			"com.deadman.memento_mori.MementoMoriClient"
 		]
 	},
 	"mixins": [
-		"momento-mori.mixins.json",
+		"memento-mori.mixins.json",
 		{
-			"config": "momento-mori.client.mixins.json",
+			"config": "memento-mori.client.mixins.json",
 			"environment": "client"
 		}
 	],

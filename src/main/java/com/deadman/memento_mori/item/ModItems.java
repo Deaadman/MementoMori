@@ -1,6 +1,6 @@
-package com.deadman.momento_mori.item;
+package com.deadman.memento_mori.item;
 
-import com.deadman.momento_mori.MomentoMori;
+import com.deadman.memento_mori.MementoMori;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,7 +21,7 @@ public class ModItems {
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
 
         // Create the item key.
-        RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MomentoMori.MOD_ID, name));
+        RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MementoMori.MOD_ID, name));
 
         // Create the item instance.
         Item item = itemFactory.apply(settings.registryKey(itemKey));

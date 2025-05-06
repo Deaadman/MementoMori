@@ -1,4 +1,4 @@
-package com.deadman.momento_mori.item;
+package com.deadman.memento_mori.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroups;

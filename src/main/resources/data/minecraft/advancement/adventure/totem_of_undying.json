@@ -1,5 +1,5 @@
 {
-  "parent": "momento-mori:adventure/obtain_totem_of_undying",
+  "parent": "memento-mori:adventure/obtain_totem_of_undying",
   "criteria": {
     "used_totem": {
       "conditions": {

@@ -1,7 +1,7 @@
-package com.deadman.momento_mori.mixin;
+package com.deadman.memento_mori.mixin;
 
-import com.deadman.momento_mori.MomentoMori;
-import com.deadman.momento_mori.item.ModItems;
+import com.deadman.memento_mori.MementoMori;
+import com.deadman.memento_mori.item.ModItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
@@ -44,8 +44,8 @@ public abstract class AnvilScreenHandlerMixin extends ForgingScreenHandler {
     public void onTakeOutput(PlayerEntity player, ItemStack stack, CallbackInfo ci) {
         ItemStack itemStack = this.input.getStack(1);
 
-        MomentoMori.LOGGER.info(itemStack.getItem().toString());
-        MomentoMori.LOGGER.info(stack.getItem().toString());
+        MementoMori.LOGGER.info(itemStack.getItem().toString());
+        MementoMori.LOGGER.info(stack.getItem().toString());
 
         if (MoreThanOneCrystal > 1) {
             MoreThanOneCrystal = MoreThanOneCrystal - 1;

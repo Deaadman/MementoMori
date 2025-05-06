@@ -1,4 +1,4 @@
-package com.deadman.momento_mori.mixin;
+package com.deadman.memento_mori.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.deadman.momento_mori.mixin.client",
+	"package": "com.deadman.memento_mori.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
