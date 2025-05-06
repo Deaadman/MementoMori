@@ -3,8 +3,7 @@
   "package": "com.deadman.momento_mori.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin",
-    "ItemsMixin"
+    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
