@@ -1,5 +1,6 @@
 package com.deadman.momento_mori;
 
+import com.deadman.momento_mori.entity.effect.ModStatusEffects;
 import com.deadman.momento_mori.item.ModItemGroups;
 import com.deadman.momento_mori.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,7 +24,8 @@ public class MomentoMori implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		ModItems.Initialize();
-		ModItemGroups.Initialize();
+		ModItems.Initialise();
+		ModItemGroups.Initialise();
+		ModStatusEffects.Initialise();
 	}
 }
