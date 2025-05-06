@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "com.deadman.momento_mori.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "com.deadman.momento_mori.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin",
+    "ItemsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
