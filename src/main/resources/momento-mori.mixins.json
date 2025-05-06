@@ -3,6 +3,7 @@
   "package": "com.deadman.momento_mori.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "AnvilScreenHandlerMixin",
     "ExampleMixin"
   ],
   "injectors": {

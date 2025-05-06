@@ -13,7 +13,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item TOTEM_CARCASS = register("totem_carcass", Item::new, new Item.Settings());
+    public static final Item TOTEM_CARCASS = register("totem_carcass", Item::new, new Item.Settings().maxCount(1));
     public static final Item UNDYING_CRYSTAL = register("undying_crystal", Item::new, new Item.Settings().rarity(Rarity.UNCOMMON));
 
     public static void Initialize() { }
