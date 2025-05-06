@@ -1,5 +1,7 @@
 package com.deadman.momento_mori;
 
+import com.deadman.momento_mori.item.ModItemGroups;
+import com.deadman.momento_mori.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +22,8 @@ public class MomentoMori implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		ModItems.Initialize();
+		ModItemGroups.Initialize();
 	}
 }
