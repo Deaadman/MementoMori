@@ -3,7 +3,8 @@
   "package": "com.deadman.memento_mori.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "AnvilScreenHandlerMixin"
+    "AnvilScreenHandlerMixin",
+    "DeathProtectionComponentMixin"
   ],
   "injectors": {
     "defaultRequire": 1

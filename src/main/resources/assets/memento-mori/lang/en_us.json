@@ -2,5 +2,6 @@
   "item.memento-mori.totem_carcass": "Totem Carcass",
   "item.memento-mori.undying_crystal": "Undying Crystal",
   "advancements.husbandry.totem_of_undying.title": "A Deal with Life",
-  "advancements.husbandry.totem_of_undying.description": "Use it wisely..."
+  "advancements.husbandry.totem_of_undying.description": "Use it wisely...",
+  "effect.memento-mori.memento_vivere": "Memento Vivere"
 }
